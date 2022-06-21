@@ -5,14 +5,10 @@
  * board fills (tie)
  */
 
-// ////////////////////////////////
-
 class Game {
   constructor(height, width) {
     this.HEIGHT = height;
     this.WIDTH = width;
-    this.configurePlayers();
-
     this.startGame();
   }
 
